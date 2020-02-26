@@ -12,13 +12,21 @@ export default () =>
             .documentId("siteSettings")
         ),
       S.listItem()
-        .title("About info")
+        .title("About-pagina")
         .child(
           S.editor()
             .schemaType("about")
             .documentId("about")
         ),
+      S.listItem()
+        .title("Contactpagina")
+        .child(
+          S.editor()
+            .schemaType("contact")
+            .documentId("contact")
+        ),
       ...S.documentTypeListItems().filter(
-        listItem => !["siteSettings", "about"].includes(listItem.getId())
+        listItem =>
+          !["siteSettings", "about", "contact"].includes(listItem.getId())
       )
     ]);
