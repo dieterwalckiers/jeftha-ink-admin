@@ -4,6 +4,11 @@ export default {
   type: "document",
   fields: [
     {
+      name: "menuItemName",
+      title: "Naam menu-item",
+      type: "string"
+    },
+    {
       name: "title",
       title: "Titel",
       type: "string"

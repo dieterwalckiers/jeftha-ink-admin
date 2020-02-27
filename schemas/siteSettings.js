@@ -14,6 +14,21 @@ export default {
       type: "image"
     },
     {
+      name: "backgroundColor",
+      title: "Achtergrondkleur",
+      type: "color"
+    },
+    {
+      name: "homeMenuItemName",
+      title: "Naam Home menu-item",
+      type: "string"
+    },
+    {
+      name: "galleryMenuItemName",
+      title: "Naam Galerij menu-item",
+      type: "string"
+    },
+    {
       name: "menuPrimaryColor",
       title: "Hoofdkleur menu",
       type: "color"
