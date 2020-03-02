@@ -37,6 +37,12 @@ export default {
       name: "menuAccentColor",
       title: "Accentkleur menu",
       type: "color"
+    },
+    {
+      name: "googleFontName",
+      title: "Google font name",
+      type: "string",
+      description: "Kan je kiezen uit fonts.google.com"
     }
   ],
   __experimental_actions: [/*'create',*/ "update", /*'delete',*/ "publish"]
