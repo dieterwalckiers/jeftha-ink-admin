@@ -16,7 +16,12 @@ export default {
     {
       name: "description",
       title: "Tekst",
-      type: "text"
+      type: "array",
+      of: [
+        {
+          type: "block"
+        }
+      ]
     }
   ],
   __experimental_actions: [/*'create',*/ "update", /*'delete',*/ "publish"]
