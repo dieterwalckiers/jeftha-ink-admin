@@ -43,6 +43,12 @@ export default {
       title: "Google font name",
       type: "string",
       description: "Kan je kiezen uit fonts.google.com"
+    },
+    {
+      name: "linkColor",
+      title: "Link kleur",
+      type: "color",
+      description: "De kleur waarin links worden weergegeven"
     }
   ],
   __experimental_actions: [/*'create',*/ "update", /*'delete',*/ "publish"]

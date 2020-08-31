@@ -8,6 +8,7 @@ import schemaTypes from "all:part:@sanity/base/schema-type";
 // import blockContent from "./blockContent";
 import project from "./project";
 import siteSettings from "./siteSettings";
+import contentPage from "./contentPage";
 import about from "./about";
 import contact from "./contact";
 
@@ -25,6 +26,7 @@ export default createSchema({
     // blockContent
     project,
     siteSettings,
+    contentPage,
     about,
     contact,
   ])
