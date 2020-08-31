@@ -11,22 +11,8 @@ export default () =>
             .schemaType("siteSettings")
             .documentId("siteSettings")
         ),
-      S.listItem()
-        .title("About-pagina")
-        .child(
-          S.editor()
-            .schemaType("about")
-            .documentId("about")
-        ),
-      S.listItem()
-        .title("Contactpagina")
-        .child(
-          S.editor()
-            .schemaType("contact")
-            .documentId("contact")
-        ),
       ...S.documentTypeListItems().filter(
         listItem =>
-          !["siteSettings", "about", "contact"].includes(listItem.getId())
+          !["siteSettings"].includes(listItem.getId())
       )
     ]);

@@ -77,7 +77,7 @@ export default {
   ],
   initialValue: {
     padding: "30px 200px 0px 200px",
-    padding: "5px 30px 0px 30px",
+    mobilePadding: "5px 30px 0px 30px",
     textAlign: "left",
   },
 };
